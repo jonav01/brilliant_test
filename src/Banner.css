@@ -1,0 +1,106 @@
+.Banner {
+  display: flex;
+  background-color: #f8f5f1;
+  height: 720px;
+}
+
+.Banner__content {
+  width: 640px;
+  margin-left: 40px;
+  margin-top: 45px;
+}
+
+.Banner__imageCard {
+  width: 520px;
+  height: 582px;
+  margin-top: 81px;
+  border: 1px solid darkgrey;
+  background-color: white;
+}
+.Banner__imageCard > img {
+  width: 50%;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.Banner__cardStats {
+  display: flex;
+  margin-top: 20px;
+}
+
+.cardStats_concepts {
+  position: absolute;
+  right: 50px;
+  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cardStats_quiz {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+}
+
+.Banner__content > h1 {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+.Banner__content > h3 {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  font-weight: 500;
+}
+
+strong {
+  font-size: 40px;
+}
+
+span {
+  font-size: 20px;
+}
+
+.cadStats_Button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.cadStats_Button > button {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  padding: 15px 7px 10px 7px;
+  width: 400px;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  background-color: black;
+}
+
+.topics {
+  display: flex;
+}
+.topics > ul {
+  list-style: none;
+  font-size: 20px;
+  margin: 0px 75px 0px 0px;
+  padding: 0px;
+}
+
+#more > h5 {
+  font-size: 30px;
+  font-weight: 400;
+  margin: 7px 0px 20px 0px;
+}
+
+#moreButton {
+  border: none;
+  background-color: whitesmoke;
+  text-decoration: underline;
+}
+
+#more {
+  display: none;
+}

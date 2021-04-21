@@ -1,0 +1,42 @@
+.Card_imageHolder {
+  display: flex;
+}
+
+.Card_image {
+  margin: 10px 40px 10px;
+  transition: transform 700ms;
+}
+
+.Cards {
+  margin-top: 60px;
+}
+
+.Card_heading {
+  display: flex;
+  margin-left: 30px;
+}
+.Card_heading > p {
+  margin: 0px 30px 0px 0px;
+  text-align: center;
+  background-color: skyblue;
+  width: 40px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.Card_headingContent > h2 {
+  margin: 0px;
+  font-size: 30px;
+}
+.Card_headingContent > h5 {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 200;
+  color: darkgray;
+}
+
+.Card_imageHolder :hover {
+  background-color: whitesmoke;
+  border: 2px solid rgb(253, 252, 251);
+  transform: scale(1.05);
+}
